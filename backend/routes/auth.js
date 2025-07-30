@@ -1,34 +1,3 @@
-// import express, { Router, json } from "express";
-// const router = Router();
-// import { register, login } from "../controllers/authController";
-// import { sign } from 'jsonwebtoken';
-// import authRoutes from './routes/auth';
-// const app = express();
-
-// app.use(json()); // for parsing JSON
-// app.use('/api/auth', authRoutes);
-
-// // Sample user payload (usually fetched from DB)
-// const user = {
-//   id: userFromDB._id,  // MongoDB ID
-//   email: userFromDB.email
-// };
-
-// // Generate token
-// const token = sign(
-//   { user: { id: user.id } },           // payload
-//   process.env.JWT_SECRET,             // secret key
-//   { expiresIn: '1h' }                 // expiry
-// );
-
-// res.json({ token });
-
-
-// router.post("/register", register);
-// router.post("/login", login);
-
-// export default router;
-
 import express from 'express';
 import User from '../models/User.js';
 import bcrypt from 'bcryptjs';
