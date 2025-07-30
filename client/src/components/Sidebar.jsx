@@ -16,7 +16,7 @@ const Sidebar = () => {
           <div className="bg-purple-600 h-9 w-9 rounded-full flex items-center justify-center text-lg font-bold shadow-md">
             +
           </div>
-          <span className="tracking-wide">AnywhereNote</span>
+          <span className="tracking-wide">NoteGenius</span>
         </div>
 
         {/* Profile Button */}
