@@ -38,49 +38,6 @@ function App() {
       </div>
     </div>
     </>
-    // <Router>
-    //   <div className="flex h-screen">
-    //     <Sidebar />
-
-    //     <div className="flex-1 flex flex-col bg-[#12141D] text-white">
-    //       <Navbar />
-    //       <div className="border-b border-[#2f334d]" />
-
-    //       {/* Page Content Area */}
-    //       <div className="flex-1 overflow-y-auto p-6">
-    //         <Routes>
-    //           <Route path="/" element={<Navigate to="/dashboard" />} />
-    //           <Route path="/signup" element={<Signup />} />
-    //           <Route path="/trash" element={<Trash />} />
-    //           <Route path="/note/:id" element={<ViewNote />} />
-    //           <Route path="/settings" element={<Settings />} />
-    //           <Route path="/dashboard" element={<Dashboard />} />
-    //         </Routes>
-
-    //         {/* Example note and delete button (can move to dashboard or any page) */}
-    //         <NoteCard
-    //           tag="Clients"
-    //           title="Review UX Feedback"
-    //           content="In the Review UX Feedback session, we will evaluate the feedback received regarding the user experience (UX)..."
-    //           date="Mar 13, 2024"
-    //         />
-    //         <button
-    //           className="bg-red-600 hover:bg-red-700 px-6 py-2 mt-4 rounded-lg text-white font-medium"
-    //           onClick={() => setShowModal(true)}
-    //         >
-    //           Delete Note
-    //         </button>
-    //       </div>
-    //     </div>
-    //   </div>
-
-    //   {/* Modal for delete confirmation */}
-    //   <DeleteModal
-    //     isOpen={showModal}
-    //     onClose={() => setShowModal(false)}
-    //     onDelete={handleDelete}
-    //   />
-    // </Router>
   );
 }
 
