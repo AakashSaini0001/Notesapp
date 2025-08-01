@@ -7,6 +7,12 @@ import noteRoutes from "./routes/Notes.js";
 import auth from "./middleware/auth.js";
 dotenv.config();
 
+app.use(express.json());
+app.use(cors(corsOptions));
+const corsOptions = {
+  origin: ["http://localhost:3000", "https://notesapp-blush.vercel.app/"],
+  credentials: true
+}
 const app = express();
 connectDB();
 
