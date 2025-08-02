@@ -26,6 +26,7 @@ function App() {
       <div className="w-full">
       <Navbar className="w-full"/>
       <Routes>
+          <Route path="/" element={<Profile />} />
           <Route path="/create-note" element={<CreateNote />} />
           <Route path="/view-notes" element={<ViewNote />} />
           <Route path="/settings" element={<Settings />} />
